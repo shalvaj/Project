@@ -28,6 +28,9 @@
 /* This is bg section */
 .bg-img {
     background-image: url(../images/bgimg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     max-width: 1360px;
     width: 100%;
     height: 650px;
@@ -64,3 +67,37 @@
     margin-top: 36px;
 }
 /* This is second section */
+.section2 {
+    margin-top: 20px;
+}
+     /* this is plane div */
+.div-wrapper {
+    max-width: 1360px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.picture-div {
+    max-width: 300px;
+    width: 100%;
+    height: 327px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.plane-h {
+    font-size: 18px;
+    margin-top: 22px;
+}
+.plane-p {
+    font-size: 16px;
+    margin-top: 8px;
+}
+     /* This is hotel div */
+.hotel-div {
+    max-width: 300px;
+    width: 100%;
+    height: 327px;
+}
+     /* This is div family */
+     /* This is div cruise */
+     /* This is fire camp div */
