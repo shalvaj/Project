@@ -81,7 +81,7 @@
     max-width: 300px;
     width: 100%;
     height: 327px;
-    margin-left: 50px;
+    margin-left: 100px;
     margin-top: 50px;
 }
 .plane-h {
@@ -101,3 +101,36 @@
      /* This is div family */
      /* This is div cruise */
      /* This is fire camp div */
+/* This is section sale */
+.wrapper-sale {
+    margin-top: 20px;
+}
+.sale {
+    background-image: url(../images/bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    max-width: 1360px;
+    width: 100%;
+    height: 350px;
+    position: relative;
+}
+.sale-abs {
+    max-width: 600px;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+.sale-p {
+    font-size: 34px;
+}
+.div-p {
+    font-size: 18px;
+}
+.sub {
+    background-color: f000;
+   
+}
