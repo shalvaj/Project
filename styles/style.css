@@ -104,6 +104,7 @@
 /* This is section sale */
 .wrapper-sale {
     margin-top: 20px;
+    position: relative;
 }
 .sale {
     background-image: url(../images/bg.jpg);
@@ -113,24 +114,107 @@
     max-width: 1360px;
     width: 100%;
     height: 350px;
-    position: relative;
 }
 .sale-abs {
-    max-width: 600px;
+    max-width: 470px;
     width: 100%;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
+    text-align: center;
 
 }
 .sale-p {
     font-size: 34px;
+    margin-bottom: 21px;
 }
 .div-p {
     font-size: 18px;
+    margin-bottom: 60px;
 }
-.sub {
-    background-color: f000;
-   
+#email {
+    border-radius: 25%;
+}
+/* This is video section */
+.video-wrapper {
+    margin-top: 20px;
+}
+.video-div {
+    max-width: 1360px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+.video {
+    margin-left: 30px;
+}
+.video-h {
+    font-size: 16px;
+}
+.video-p {
+    font-size: 26px;
+}
+.video-text {
+    text-align: center;
+}
+/* This is map section */
+.map {
+    max-width: 1360px;
+    width: 100%;
+    margin-top: 50px;
+}
+/* This is footer */
+     /* This is first div */
+.div-foot {
+    max-width: 1360px;
+    width: 100%;
+    height: 340px;
+    background-color: black;
+    display: flex;
+}
+.frst-div {
+    max-width: 160px;
+    width: 100%;
+    height: 250px;
+    margin-left: 50px;
+}
+.frst-h {
+    color: white;
+    padding-top: 50px;
+}
+.frst-li {
+    color: white;
+    margin-top: 20px;
+}
+     /* This is second div */
+.second-div {
+    max-width: 160px;
+    width: 100%;
+    height: 250px;
+    margin-left: 50px;
+}
+.second-h {
+    color: white;
+    padding-top: 50px;
+}
+.second-li {
+    color: white;
+    margin-top: 20px;
+}
+     /* This is theard div */
+.therd-div {
+    max-width: 160px;
+    width: 100%;
+    height: 250px;
+    margin-left: 50px;
+}
+.theard-h {
+    color: white;
+    padding-top: 50px;
+}
+.theard-li {
+    color: white;
+    margin-top: 20px;
 }
