@@ -22,8 +22,9 @@
     padding-top: 25px;
 }
 .nav-li {
-    font-size: 15px;
+    font-size: 14px;
     margin-left: 39px;
+    font-family: 'Raleway-SemiBold';
 }
 /* This is bg section */
 .bg-img {
@@ -41,7 +42,6 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-
 }
 .price {
     text-align: center;
@@ -50,21 +50,24 @@
     max-width: 200px;
     width: 100%;
     height: 92px;
-    margin-left: 200px;
-    border-radius: 1000%;
+    margin-left: 100px;
+    border-radius: 100%;
     padding-top: 35px;
+    font-family: 'Raleway-Bold';
 }
-.greece {
+.world {
     text-align: center;
     font-size: 78px;
     color: #FFFFFF;
     margin-top: 6px;
+    font-family: 'Stint Ultra Condensed-Regular';
 }
 .travel {
     text-align: center;
     font-size: 18px;
     color: #FFFFFF;
     margin-top: 36px;
+    font-family: 'Raleway-SemiBold';
 }
 /* This is second section */
 .section2 {
@@ -87,10 +90,12 @@
 .plane-h {
     font-size: 18px;
     margin-top: 22px;
+    font-family: 'Raleway-SemiBold';
 }
 .plane-p {
     font-size: 16px;
     margin-top: 8px;
+    font-family: 'Raleway-Medium';
 }
      /* This is hotel div */
 .hotel-div {
@@ -126,13 +131,21 @@
 
 }
 .sale-p {
-    font-size: 34px;
+    font-size: 31px;
     margin-bottom: 21px;
+    font-family: 'Raleway-SemiBold';
 }
 .div-p {
     font-size: 18px;
     margin-bottom: 60px;
 }
+.text-line {
+    font-family: 'Raleway-Medium';
+}
+.frm-sub {
+    font-family: 'Raleway-SemiBold';
+}
+/* This is video section */
 .video-wrapper {
     margin-top: 20px;
 }
@@ -148,9 +161,11 @@
 }
 .video-h {
     font-size: 16px;
+    font-family: 'Raleway-SemiBold';
 }
 .video-p {
     font-size: 26px;
+    font-family: 'Raleway-SemiBold';
 }
 .video-text {
     text-align: center;
@@ -179,10 +194,12 @@
 .frst-h {
     color: white;
     padding-top: 50px;
+    font-family: 'Raleway-Bold';
 }
 .frst-li {
     color: white;
     margin-top: 20px;
+    font-family: 'Raleway-Medium';
 }
      /* This is second div */
 .second-div {
@@ -194,10 +211,12 @@
 .second-h {
     color: white;
     padding-top: 50px;
+    font-family: 'Raleway-Bold';
 }
 .second-li {
     color: white;
     margin-top: 20px;
+    font-family: 'Raleway-Medium';
 }
      /* This is theard div */
 .therd-div {
@@ -209,8 +228,14 @@
 .theard-h {
     color: white;
     padding-top: 50px;
+    font-family: 'Raleway-Bold';
 }
 .theard-li {
     color: white;
     margin-top: 20px;
+    font-family: 'Raleway-Medium';
+}
+.div-anime {
+    margin-left: 300px;
+    padding-top: 15px;
 }

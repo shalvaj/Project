@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Stint Ultra Condensed';
+    src: url('StintUltraCondensed-Regular.eot');
+    src: url('StintUltraCondensed-Regular.eot?#iefix') format('embedded-opentype'),
+        url('StintUltraCondensed-Regular.woff2') format('woff2'),
+        url('StintUltraCondensed-Regular.woff') format('woff'),
+        url('StintUltraCondensed-Regular.ttf') format('truetype'),
+        url('StintUltraCondensed-Regular.svg#StintUltraCondensed-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
