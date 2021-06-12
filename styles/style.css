@@ -6,6 +6,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin: 0 auto;
 }
 .nav-ul {
     max-width: 503px;
@@ -27,6 +28,9 @@
     font-family: 'Raleway-SemiBold';
 }
 /* This is bg section */
+.container-bg {
+    margin: 0 auto;
+}
 .bg-img {
     background-image: url(../images/bgimg.jpg);
     background-size: cover;
@@ -80,6 +84,7 @@
     width: 100%;
     display: flex;
     flex-wrap: wrap;
+    margin: 0 auto;
 }
 .picture-div {
     max-width: 300px;
@@ -111,6 +116,9 @@
 .wrapper-sale {
     margin-top: 20px;
     position: relative;
+}
+.container-sale {
+    margin: 0 auto;
 }
 .sale {
     background-image: url(../images/bg.jpg);
@@ -150,6 +158,9 @@
 .video-wrapper {
     margin-top: 20px;
 }
+.container-video {
+    margin: 0 auto;
+}
 .video-div {
     max-width: 1520px;
     width: 100%;
@@ -177,11 +188,13 @@
     max-width: 1520px;
     width: 100%;
     margin-top: 50px;
+    margin: 0 auto;
 }
 /* This is form section */
 .form-div {
     background-color: aquamarine;
-    height: 300px;  
+    height: 300px;
+    margin: 0 auto;
 }
 .div-form {
     display: flex;
@@ -227,6 +240,7 @@
     height: 340px;
     background-color: black;
     display: flex;
+    margin: 0 auto;
 }
 .frst-div {
     max-width: 160px;
