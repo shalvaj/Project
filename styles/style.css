@@ -1,6 +1,6 @@
 /* This is header line */
 .header-box {
-    max-width: 1360px;
+    max-width: 1520px;
     width: 100%;
     height: 81px;
     display: flex;
@@ -32,7 +32,7 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    max-width: 1360px;
+    max-width: 1520px;
     width: 100%;
     height: 650px;
     position: relative;
@@ -50,10 +50,11 @@
     max-width: 200px;
     width: 100%;
     height: 92px;
-    margin-left: 100px;
+    /* margin-left: 100px; */
     border-radius: 100%;
     padding-top: 35px;
     font-family: 'Raleway-Bold';
+    margin:0 auto;
 }
 .world {
     text-align: center;
@@ -75,7 +76,7 @@
 }
      /* this is plane div */
 .div-wrapper {
-    max-width: 1360px;
+    max-width: 1520px;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -84,7 +85,7 @@
     max-width: 300px;
     width: 100%;
     height: 327px;
-    margin-left: 100px;
+    margin-left: 150px;
     margin-top: 50px;
 }
 .plane-h {
@@ -116,7 +117,7 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    max-width: 1360px;
+    max-width: 1520px;
     width: 100%;
     height: 350px;
 }
@@ -150,7 +151,7 @@
     margin-top: 20px;
 }
 .video-div {
-    max-width: 1360px;
+    max-width: 1520px;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -172,14 +173,14 @@
 }
 /* This is map section */
 .map {
-    max-width: 1360px;
+    max-width: 1520px;
     width: 100%;
     margin-top: 50px;
 }
 /* This is footer */
      /* This is first div */
 .div-foot {
-    max-width: 1360px;
+    max-width: 1520px;
     width: 100%;
     height: 340px;
     background-color: black;
