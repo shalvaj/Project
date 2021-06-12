@@ -158,7 +158,8 @@
     margin-top: 20px;
 }
 .video {
-    margin-left: 30px;
+    margin-left: 60px;
+    margin-top: 20px;
 }
 .video-h {
     font-size: 16px;
@@ -176,6 +177,47 @@
     max-width: 1520px;
     width: 100%;
     margin-top: 50px;
+}
+/* This is form section */
+.form-div {
+    background-color: aquamarine;
+    height: 300px;  
+}
+.div-form {
+    display: flex;
+    justify-content: space-evenly;
+}
+.form-h {
+    text-align: center;
+    font-size: 38px;
+    font-family: 'Stint Ultra Condensed-Regular';
+}
+.form-gender-age {
+    display: inline-block;
+    margin-top: 20px;
+}
+.form-tour {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 20px;
+}
+.form-name {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 20px;
+}
+#lname {
+    margin-top: 10px;
+}
+.button-sub {
+    text-align: center;
+}
+#button {
+    border-radius: 50%;
+    background-color: yellow;
+    width: 200px;
+    height: 30px;
+    font-size: 20px;
 }
 /* This is footer */
      /* This is first div */
@@ -236,6 +278,7 @@
     margin-top: 20px;
     font-family: 'Raleway-Medium';
 }
+    /* this is animation */
 .div-anime {
     margin-left: 300px;
     padding-top: 15px;
