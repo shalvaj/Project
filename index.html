@@ -8,32 +8,39 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Project</title>
+    <script src="https://kit.fontawesome.com/29fe6ca7d1.js" crossorigin="anonymous"></script>
     <link rel="icon" href="images/logosvg.png" sizes="16x16">
     <link rel="stylesheet" href="styles/reset.css">
     <link rel="stylesheet" href="styles/fonts.css">
     <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/responsive.css">
 </head>
 <body>
-    <header class="header-box">
-        <a class="logo" href="index.html">
-            <img src="images/logo.svg" alt="logo">
-        </a>
-         <nav class="nav-bar">
-             <ul class="nav-ul">
-                 <li class="nav-li">
-                     <a href="#"> HOME </a>
-                 </li>
-                <li class="nav-li">
-                    <a href="#"> ABOUT US </a>
-                </li>
-                <li class="nav-li">
-                    <a href="#"> OUR SERVICES </a>
-                </li>
-                <li class="nav-li">
-                    <a href="#"> TOUR PACKAGES </a>
-                </li>
-             </ul>
-         </nav>
+    <header>
+        <div class="header-box">
+            <a class="logo" href="index.html">
+                <img src="images/logo.svg" alt="logo">
+            </a>
+            <nav class="nav-bar" id="navBar">
+                <ul class="nav-ul">
+                    <li class="nav-li">
+                        <a href="#"> HOME </a>
+                    </li>
+                    <li class="nav-li">
+                        <a href="#"> ABOUT US </a>
+                    </li>
+                    <li class="nav-li">
+                        <a href="#"> OUR SERVICES </a>
+                    </li>
+                    <li class="nav-li">
+                        <a href="#"> TOUR PACKAGES </a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="burger-button" id="burgerButton">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
     </header>
     <section>
         <div class="container-bg">
@@ -50,42 +57,42 @@
         <div class="div-wrapper">
             <div class="picture-div">
                 <div class="div-planeimg">
-                    <img src="images/plane.jpg" alt="plane">
+                    <img class="img" src="images/plane.jpg" alt="plane">
                 </div>
                 <h2 class="plane-h">FLIGHT BOOKING</h2>
                 <p class="plane-p">Whenever and wherever you are in the world, you can book a cheap flight with the handy Opodo app. We also save your itinerary for maximum convenience and offer attractive discounts. It’s that easy!</p>
             </div>
             <div class="picture-div">
                 <div class="div-hotelimg">
-                    <img src="images/hotel.jpg" alt="hotel">
+                    <img class="img" src="images/hotel.jpg" alt="hotel">
                 </div>
                 <h2 class="plane-h">HOTEL & RESORT BOOKING</h2>
                 <p class="plane-p">Located in Hurghada, this 5-star deluxe beach hotel provides a haven of luxury with its large aquatic park and floodlit golf course.</p>
             </div>
             <div class="picture-div">
                 <div class="div-hotelimg">
-                    <img src="images/fam.jpg" alt="family">
+                    <img class="img" src="images/fam.jpg" alt="family">
                 </div>
                 <h2 class="plane-h">FAMILY TRIP PLANNER</h2>
                 <p class="plane-p">Located in Komárno, within 1.7 km of Fortress of Komarno and 1.7 km of Courtyard of Europe, Guest House Meat Heads Pub provides accommodation with a restaurant and free WiFi as well as free private...</p>
             </div>
             <div class="picture-div">
                 <div class="div-hotelimg">
-                    <img src="images/cruise.jpg" alt="cruise">
+                    <img class="img" src="images/cruise.jpg" alt="cruise">
                 </div>
                 <h2 class="plane-h">CRUISE TOUR</h2>
                 <p class="plane-p">Our Stuart Sandbar Cruise is a favorite!  The incoming tides bring clear waters from the Gulf Stream, so we can anchor up our pontoon boat on the sandbar island.  You can explore, swim and cruise the Intracoastal Waterway.</p>
             </div>
             <div class="picture-div">
                 <div class="div-hotelimg">
-                    <img src="images/fire.jpg" alt="firecamp">
+                    <img class="img" src="images/fire.jpg" alt="firecamp">
                 </div>
                 <h2 class="plane-h">FIRE CAMP</h2>
                 <p class="plane-p">At Desert Berber Fire-Camp you will find a 24-hour front desk. Other facilities offered at the property include a tour desk. An array of activities can be enjoyed on site or in the surroundings, including hiking.</p>
             </div>
             <div class="picture-div">
                 <div class="div-hotelimg">
-                    <img src="images/corporate.jpg" alt="corporate">
+                    <img class="img" src="images/corporate.jpg" alt="corporate">
                 </div>
                 <h2 class="plane-h">CORPORATE HOLIDAYS</h2>
                 <p class="plane-p">Whether you’re working with a whole Party Planning Committee, or it’s just little old you, putting together a corporate holiday party is no easy task. Keep reading for ideas on themes, activities, food, and more.</p>
@@ -240,12 +247,13 @@
                     </ul>
                 </div>
                 <div class="div-anime">
-                   <a href="#"> <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-                    <lottie-player src="https://assets8.lottiefiles.com/private_files/lf30_v6pttgcg.json"  background="transparent"  speed="1"  style="width: 200px; height: 200px;"  loop  autoplay></lottie-player> </a>
+                   <a href="#"> <script class="div-anime" src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+                    <lottie-player src="https://assets8.lottiefiles.com/private_files/lf30_v6pttgcg.json"  background="transparent"  speed="1"  loop  autoplay></lottie-player> </a>
                 </div>
             </div>
         </section>
     </footer>
+    <script src="script.js"></script>
     
 </body>
 </html>
