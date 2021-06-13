@@ -156,7 +156,8 @@
 }
 /* This is video section */
 .video-wrapper {
-    margin-top: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 .container-video {
     margin: 0 auto;
@@ -187,7 +188,6 @@
 .map {
     max-width: 1520px;
     width: 100%;
-    margin-top: 50px;
     margin: 0 auto;
 }
 /* This is form section */
@@ -195,6 +195,7 @@
     background-color: aquamarine;
     height: 300px;
     margin: 0 auto;
+    margin-top: 10px;
 }
 .div-form {
     display: flex;
@@ -241,6 +242,8 @@
     background-color: black;
     display: flex;
     margin: 0 auto;
+    justify-content: space-evenly;
+    margin-top: 10px;
 }
 .frst-div {
     max-width: 160px;
