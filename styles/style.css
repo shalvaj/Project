@@ -240,6 +240,10 @@ a:hover {
 }
 #lname {
     margin-top: 10px;
+    outline: none;
+}
+#fname {
+    outline: none;
 }
 .button-sub {
     text-align: center;
