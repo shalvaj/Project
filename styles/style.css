@@ -28,6 +28,9 @@
     margin-left: 39px;
     font-family: 'Raleway-SemiBold';
 }
+a:hover {
+    color: red;
+}
 .burger-button {
     position: absolute;
     top: 35px;
@@ -110,6 +113,9 @@
     font-size: 16px;
     margin-top: 8px;
     font-family: 'Raleway-Medium';
+}
+.img:hover{
+    width: 400px;
 }
      /* This is hotel div */
 .hotel-div {
